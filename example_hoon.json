@@ -1,0 +1,5 @@
+{
+      "title": "example_hoon.hoon",
+      "explainers": [":: comment", "?+", "%", "~&", "`this", "%", "`this(...)"],
+      "code": ":: snippet name\n?+    q.vase  (on-poke:def mark vase)\n    %print-state\n~&  state\n    \n`this  :: irregular syntax for '[~ this]'\n %reset-state\n    \n`this(state *versioned-state)  :: irregular syntax for bunt value\n  ==`"
+}
